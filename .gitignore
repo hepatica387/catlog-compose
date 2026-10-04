@@ -1,0 +1,17 @@
+# Repositories cloned locally for Docker Compose builds
+/frontend/
+/backend/
+/catlog-data-pipeline/
+/error_txt/
+
+# Local Compose environment and credentials
+.env
+.env.*
+!.env.example
+
+# Local archives and editor files
+*.zip
+.idea/
+.vscode/
+
+/error_txt/
